@@ -1,9 +1,3 @@
-# vi-config
-An easy, simple config loader for nodejs
-
-# Demo
-
-```javascript
 import * as path from 'path';
 import * as config from '../dist/main';
 config.init({
@@ -11,4 +5,3 @@ config.init({
 });
 
 console.log(config.get('foo.bar') + ' ' + config.get('foo.baz')); // Got 'Hello World'
-```
